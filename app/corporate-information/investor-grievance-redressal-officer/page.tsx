@@ -10,7 +10,7 @@ export default function InvestorGrievanceRedressalOfficerPage() {
             <BGGradientOtherSections>
                 <div className="mt-20 flex flex-col justify-center items-center pb-16">
                     <div className="pb-1 mb-16 flex flex-col items-center">
-                        <h1 className="mx-auto mb-2 max-w-4xl text-balance text-3xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[3.25rem]">Investor Grievance Redressal Officer</h1>
+                        <h1 className="mx-auto mb-2 max-w-4xl text-center text-balance text-3xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[3.25rem]">Investor Grievance Redressal Officer</h1>
                         <h2><Link href={'/'}>Home</Link> / Investor Grievance Redressal Officer</h2>
                     </div>
                     <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left">

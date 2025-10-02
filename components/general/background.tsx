@@ -9,7 +9,7 @@ export default function BGGradient({children} : {children?: React.ReactNode}) {
         linear-gradient(to right, #d5d9dd 1px, transparent 1px),
         linear-gradient(to bottom, #d5d9dd 1px, transparent 1px)
       `,
-      backgroundSize: "20px 30px",
+      backgroundSize: "20px 25px",
       WebkitMaskImage:
         "radial-gradient(ellipse 70% 60% at 50% 30%, #000 40%, transparent 100%)",
       maskImage:
