@@ -65,6 +65,7 @@ const financeComponents: { title: string; href: string; description: string }[] 
 
 const homeComponents: { title: string; href: string; description: string }[] = [
   {
+    
     title: "About",
     href: "/home/about",
     description:

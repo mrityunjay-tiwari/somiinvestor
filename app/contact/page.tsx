@@ -1,10 +1,13 @@
 import CardFlip from "@/components/contact-page/contact-page-address-card";
 import CardFlipContactNumber from "@/components/contact-page/contact-page-contactNo-card";
 import CardFlipEmailId from "@/components/contact-page/contact-page-email-card";
-import DiscountTag from "@/components/contact-page/tag";
+import {DiscountTag} from "@/components/contact-page/tag";
 import { BGGradientContactSection } from "@/components/general/background-contact-page";
 import ContactSection from "@/components/home-page/contact-section";
+import { Playpen_Sans } from "next/font/google";
 import Link from "next/link";
+
+
 
 export default function ContactPage() {
     return (

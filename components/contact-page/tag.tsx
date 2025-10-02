@@ -1,4 +1,13 @@
-export default function DiscountTag() {
+import { cn } from "@/lib/utils";
+import { Playpen_Sans } from "next/font/google";
+
+const playpen = Playpen_Sans({
+  variable: "--font-shadow",
+  weight: "300",
+  style: "normal"
+})
+
+export function DiscountTag() {
   return (
     <div className="relative w-28 h-52 flex items-center justify-center bg-white">
       {/* Curved arrow */}
@@ -20,7 +29,7 @@ export default function DiscountTag() {
 </svg>
 
       {/* Rotated Text */}
-      <span className="absolute rotate-[-15deg] text-zinc-600 translate-x-6 -translate-y-6">
+      <span className={cn(`absolute rotate-[-15deg] text-zinc-600 translate-x-6 -translate-y-10, ${playpen.className}`)}>
         Hover on the cards to flip
       </span>
     </div>
