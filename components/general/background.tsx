@@ -6,8 +6,8 @@ export default function BGGradient({children} : {children?: React.ReactNode}) {
     className="absolute inset-0 z-0"
     style={{
       backgroundImage: `
-        linear-gradient(to right, #e2e8f0 1px, transparent 1px),
-        linear-gradient(to bottom, #e2e8f0 1px, transparent 1px)
+        linear-gradient(to right, #d5d9dd 1px, transparent 1px),
+        linear-gradient(to bottom, #d5d9dd 1px, transparent 1px)
       `,
       backgroundSize: "20px 30px",
       WebkitMaskImage:
