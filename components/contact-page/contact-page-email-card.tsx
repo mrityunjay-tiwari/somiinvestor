@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
 import { ArrowRight,  Contact,  LocateIcon, Mail, PhoneCall } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
+import { MotionDiv } from "../general/motion-exports";
 
 export interface CardFlipProps {
     title?: string;
@@ -31,7 +32,7 @@ export default function CardFlipEmailId({
     const [isFlipped, setIsFlipped] = useState(false);
 
     return (
-        <div
+        <MotionDiv initial={{y:40, opacity:0}} whileInView={{y: 0,opacity: 1}} transition={{ duration: 0.5, ease: "easeOut" }}
             className="relative w-full max-w-[300px] h-[320px] group [perspective:2000px]"
             onMouseEnter={() => setIsFlipped(true)}
             onMouseLeave={() => setIsFlipped(false)}
@@ -176,6 +177,6 @@ export default function CardFlipEmailId({
                     }
                 }
             `}</style>
-        </div>
+        </MotionDiv>
     );
 }
