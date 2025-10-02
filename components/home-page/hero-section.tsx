@@ -9,6 +9,8 @@ import { AnimatedGroup } from '@/components/motion-primitives/animated-group'
 import { LogoCloud } from '@/components/home-page/infinite-slider'
 import { InfiniteSlider } from '@/components/motion-primitives/infinite-slider'
 import { Button } from '../ui/button'
+import { Playpen_Sans, Roboto, Roboto_Mono, Rubik } from 'next/font/google'
+import { cn } from '@/lib/utils'
 
 const transitionVariants: { item: Variants } = {
   item: {
@@ -30,6 +32,17 @@ const transitionVariants: { item: Variants } = {
   },
 }
 
+const playpen = Playpen_Sans({
+  variable: "--font-shadow",
+  weight: "300",
+  style: "normal"
+})
+
+const roboto = Rubik({
+  variable: "--font-shadow",
+  weight: "300",
+  style: "normal"
+})
 
 export default function HeroSection() {
     return (
@@ -152,7 +165,7 @@ export default function HeroSection() {
                                       preset="fade-in-blur"
                                       speedSegment={0.3}
                                       as="h1"
-                                      className="mx-auto mt-8 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem]">
+                                      className={cn(`mx-auto mt-8 max-w-4xl text-balance text-5xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[5.25rem], ${roboto.className}`)}>
                                       Somi Conveyor Beltings Ltd.
                                   </TextEffect>
                                   <TextEffect

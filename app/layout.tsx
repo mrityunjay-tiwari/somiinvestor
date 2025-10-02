@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playpen_Sans } from "next/font/google";
+import { Playpen_Sans, Rubik } from "next/font/google";
 import "./globals.css";
 import { HeroHeader } from "@/components/home-page/header";
 import FooterSection from "@/components/home-page/footer";
@@ -25,6 +25,11 @@ const playpen = Playpen_Sans({
   style: "normal"
 })
 
+const rubik = Rubik({
+  variable: "--font-shadow",
+  weight: "300",
+  style: "normal"
+})
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -33,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playpen.className}`}
+        className={`${rubik.className}`}
       > 
         <div className="flex min-h-screen flex-col">
         <HeroHeader />
