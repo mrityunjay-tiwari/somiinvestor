@@ -47,7 +47,7 @@ const roboto = Rubik({
 export default function HeroSection() {
     return (
         <>
-          <BGGradient>
+          {/* <BGGradient> */}
             
             <main className="overflow-hidden">
               <section className='relative overflow-hidden'>
@@ -145,7 +145,20 @@ export default function HeroSection() {
                                       <Link
                                           href="/contact"
                                           className="hover:bg-background dark:hover:border-t-border bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md shadow-zinc-950/5 transition-colors duration-300 dark:border-t-white/5 dark:shadow-zinc-950">
-                                          <span className="text-foreground text-sm">An ISO 9001 Company</span>
+                                          <span className="flex gap-2 items-center justify-center">
+                      <div className="relative w-3 h-3 flex items-center justify-center">
+                        <div className="w-2.5 h-2.5 rounded-full bg-yellow-400 animate-in z-10 absolute justify-self-center"></div>
+                        <div className="w-2.5 h-2.5 rounded-full bg-yellow-300 animate-[ping_1.5s_ease-in-out_infinite] absolute justify-self-center"></div>
+                      </div>
+
+                      <div className="flex items-center gap-0.5 text-foreground text-sm">
+                        An ISO 9001 Company{" "}
+                      </div>
+                    </span>
+                                          {/* <span className="text-foreground text-sm">
+                                            An ISO 9001 Company
+                                            
+                                            </span> */}
                                           <span className="dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"></span>
 
                                           <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500">
@@ -362,7 +375,7 @@ export default function HeroSection() {
                 </section> */}
             </main>
 
-            </BGGradient>
+            {/* </BGGradient> */}
         </>
     )
 }

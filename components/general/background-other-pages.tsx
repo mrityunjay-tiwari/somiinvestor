@@ -26,3 +26,4 @@ export function BGGradientOtherSections({children} : {children : React.ReactNode
 </div>
     )
 }
+
