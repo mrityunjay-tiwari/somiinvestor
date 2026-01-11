@@ -21,10 +21,10 @@ export default function ContactPage() {
                     
                         <div className="flex w-4/5">
                             <div className="pt-12 w-4/5 text-justify border-l pl-20 pb-10 shadow-left flex flex-col gap-10">
-                                <div className="flex">
+                                    
                                     <CardFlip />
-                                    <DiscountTag />
-                                </div>
+                                    {/* <DiscountTag /> */}
+                                
                                 <CardFlipContactNumber />
                                 <CardFlipEmailId />
 

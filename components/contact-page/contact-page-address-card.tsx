@@ -37,6 +37,7 @@ export default function CardFlip({
             onMouseEnter={() => setIsFlipped(true)}
             onMouseLeave={() => setIsFlipped(false)}
         >
+            <h1 className="font-thin text-xs">Hover on the cards to flip : </h1>
             <div
                 className={cn(
                     "relative w-full h-full",
