@@ -11,7 +11,7 @@ export function BGGradientOtherSections({children} : {children : React.ReactNode
         linear-gradient(45deg, transparent 49%, #e5e7eb 49%, #e5e7eb 51%, transparent 51%),
         linear-gradient(-45deg, transparent 49%, #e5e7eb 49%, #e5e7eb 51%, transparent 51%)
       `,
-      backgroundSize: "40px 40px",
+      backgroundSize: "39px 39px",
       WebkitMaskImage:
         "radial-gradient(ellipse 70% 60% at 50% 0%, #000 60%, transparent 100%)",
       maskImage:
@@ -19,7 +19,7 @@ export function BGGradientOtherSections({children} : {children : React.ReactNode
     }}
   />
      {/* Your Content/Components */}
-     <div className="z-20">
+     <div className="relative z-10">
         {children}
 
      </div>

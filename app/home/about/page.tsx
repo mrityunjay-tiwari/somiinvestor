@@ -11,7 +11,7 @@ export default function HomeAboutPage() {
                         <h1 className="mx-auto mb-2 max-w-4xl text-center text-balance text-3xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[3.25rem]">About</h1>
                         <h2><Link href={'/'}>Home</Link> / About</h2>
                     </div>
-                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left">
+                    <div className="relative pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left z-20 bg-white">
                         <h2 className="font-semibold text-lg mb-6 mt-4">About Us</h2>
                         <h3>{`SOMI CONVEYOR BELTINGS LTD is a BSE Listed Public Ltd company having two manufacturing plants located at Jodhpur India, well connected by air, rail & road. The plants are equipped by 100% PLC based fully automatic & computerized machineries. Company is capable to produce New Generatio (Somiflex) Conveyor Belts upto 2000mm Width with Installed capacity of 9,00,000 meters per annum. Company manufactures the World-class Quality Conveyr Belts equivalent to Fenner, Yokohama, Dunlop, Continetal.
 

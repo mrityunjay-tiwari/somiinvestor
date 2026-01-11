@@ -12,7 +12,7 @@ export default function HomeAboutPage() {
                         <h1 className="mx-auto mb-2 max-w-4xl text-center text-balance text-3xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[3.25rem]">Regulation 62</h1>
                         <h2><Link href={'/'}>Home</Link> / Regulation 62</h2>
                     </div>
-                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left">
+                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left z-20 bg-white">
                     <h2 className="font-semibold text-xl mb-4">Disclosures under Regulations 62 of the LODR</h2>
                         <LinkCard href="https://somiinvestor.com/public/storage/SOMI_IntimationforNewspaperAdvt_IEPFunderReg30_n_47.pdf" text="Details of Company’s business" />
                         <LinkCard text="Composition of the Board" href="https://xg9wq6velf.ufs.sh/f/WawiSmjHDLSKRAI8q2h4dQBAjrFvKbVZ7iJ15axDE0HN2ghz"/>

@@ -12,7 +12,7 @@ export default function HalfYearlyAndYearlyCompliancesPage() {
                         <h1 className="mx-auto mb-2 max-w-4xl text-center text-balance text-3xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[3.25rem]">Half Yearly and Yearly Compliances</h1>
                         <h2><Link href={'/'}>Home</Link> / Half Yearly and Yearly Compliances</h2>
                     </div>
-                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left">
+                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left z-20 bg-white">
                         
                         <h3 className="font-semibold">COMPLIANCE CERTIFICATE U/R 40(9) OF SEBI (LODR) REGULATIONS, 2015</h3>
                         <h3 className="mt-10">2023-24</h3>

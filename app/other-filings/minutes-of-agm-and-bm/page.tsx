@@ -12,7 +12,7 @@ export default function ReconciliationOfShareCapitalAuditReportPage() {
                         <h1 className="mx-auto mb-2 max-w-4xl text-center text-balance text-3xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[3.25rem]">Minutes of AGM and BM</h1>
                         <h2><Link href={'/'}>Home</Link> / Minutes of AGM and BM</h2>
                     </div>
-                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left">
+                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left z-20 bg-white">
                         <h2 className="font-semibold text-lg mb-6 mt-4">Minutes of AGM and BM</h2>
                         
                         <LinkCard href="https://somiinvestor.com/public/storage/SOMI_IntimationforNewspaperAdvt_IEPFunderReg30_n_47.pdf" text="Minutes of 21st AGM (2021) held on  30/09/2021" />

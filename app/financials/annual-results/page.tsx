@@ -12,7 +12,7 @@ export default function FinancialsAnnualReportsPage() {
                         <h1 className="mx-auto mb-2 max-w-4xl text-center text-balance text-3xl max-md:font-semibold md:text-7xl lg:mt-16 xl:text-[3.25rem]">Annual Results</h1>
                         <h2><Link href={'/'}>Home</Link> / Annual Results</h2>
                     </div>
-                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left">
+                    <div className="pt-12 w-4/5 text-justify border-l pl-10 pb-10 shadow-left z-20 bg-white">
                         <LinkCard href="https://somiinvestor.com/public/storage/SOMI_IntimationforNewspaperAdvt_IEPFunderReg30_n_47.pdf" text="2023-24 Annual Results" />
                         <LinkCard text="2022-23 Annual Results" href="https://xg9wq6velf.ufs.sh/f/WawiSmjHDLSKRAI8q2h4dQBAjrFvKbVZ7iJ15axDE0HN2ghz"/>
                         <LinkCard text="2021-22 Annual Results" href="https://somiinvestor.com/public/storage/IEPF-5/Form-IEPF-5.pdf"/>
